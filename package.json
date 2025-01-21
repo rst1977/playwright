@@ -1,0 +1,18 @@
+{
+  "name": "learnplaywright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:smoke": "npx playwright test --grep \"@smoke\"",
+    "test:regression": "npx playwright test --grep \"@regression\"",
+    "test:all": "npm run test:smoke && npm run test:regression"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.20"
+  }
+}
