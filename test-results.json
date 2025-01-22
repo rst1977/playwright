@@ -55,61 +55,53 @@
   },
   "suites": [
     {
-      "title": "assertions.spec.js",
-      "file": "assertions.spec.js",
+      "title": "login.spec.js",
+      "file": "login.spec.js",
       "column": 0,
       "line": 0,
-      "specs": [],
-      "suites": [
+      "specs": [
         {
-          "title": "Learn assertions @assertions_group",
-          "file": "assertions.spec.js",
-          "line": 3,
-          "column": 6,
-          "specs": [
+          "title": "This is a login test @smoke @regression",
+          "ok": true,
+          "tags": [
+            "smoke",
+            "regression"
+          ],
+          "tests": [
             {
-              "title": "Continues with assertions",
-              "ok": true,
-              "tags": [
-                "assertions_group"
-              ],
-              "tests": [
+              "timeout": 10000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
                 {
-                  "timeout": 10000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 1851,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-01-21T15:59:40.952Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 2633,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-01-21T16:16:41.942Z",
+                  "attachments": []
                 }
               ],
-              "id": "4cf67306dc47f75b569a-55c3cc1cee9fead6fa75",
-              "file": "assertions.spec.js",
-              "line": 15,
-              "column": 9
+              "status": "expected"
             }
-          ]
+          ],
+          "id": "badc1754af1944f68b2b-3524ac0e91159138198c",
+          "file": "login.spec.js",
+          "line": 3,
+          "column": 6
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-01-21T15:59:40.111Z",
-    "duration": 3226.477,
+    "startTime": "2025-01-21T16:16:41.320Z",
+    "duration": 3807.057,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
